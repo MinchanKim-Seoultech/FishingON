@@ -6,6 +6,9 @@ h1{
   color:blue;
   text-decoration: underline;
 }
+#title{
+  color:skyblue;
+}
 .saw{
   color:gray;
 }
@@ -19,10 +22,28 @@ ul{
   grid-template-columns:1fr 1fr 1fr 1fr;
   text-align :center;
   list-style: none;
+  font-size: 22px;
 }
 #cardnews {
-    display:grid;
-    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
-  }
+  text-align: center;
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  font-size: 16px
+}
+#video{
+  text-align: center;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  font-size: 16px
+
+}
 #cardnews p{
-    margin-right : 5px;
+  margin-right : 5px;
+}
+#main h2{
+  text-align : center;
+}
+#content{
+  margin-left: 200px;
+  margin-right: 200px;
+}
